@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
-import HomeScreen from './screens/HomeScreen/HomeScreen';
+import MainStackNavigator from './routes/MainStackNavigator';
 
 class AppStart extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class AppStart extends Component {
   }
 
   render() {
-    return <HomeScreen></HomeScreen>;
+    return <MainStackNavigator></MainStackNavigator>;
   }
 }
 
